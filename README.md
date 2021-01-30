@@ -13,17 +13,16 @@
   * [Tienda](#tienda)
   * [Dinero](#dinero)
   * [Inventario](#Inventario)
-* **Estructura json**
-  * [Economía](#json-eco)
-  * [Tienda](#json-td)
-* **Zeew**
+  
+* **Informacion Sobre Zeew**
   * [Staff](#staff)
   * [Proyectos](#proyectos)
 
-No olvides que si tienes un error o propuesta para mejorar este NPM, solo tienes que unirte a este servidor de [Discord](https://discord.gg/HWwBD6F).
+No olvides que si tienes un error o propuesta para mejorar este NPM, solo tienes que unirte a este servidor de [Discord](https://discord.gg/KnuCvHvrfG).
 
-¡Gracias por confiar en nosotros!
-## Instalación
+¡Gracias por confiar en Zeew!
+
+## Instalación del NPM
 ```js
 npm i zeew-eco
 ```
@@ -131,9 +130,6 @@ eco.mostrar(clave)
 const td = new zeco.tienda()
 eco.mostrar(servidor.id)
 ```
-```js
-```
-<a name="TD-agregar" />
 
 #### Tienda: Agregar
 
@@ -148,10 +144,8 @@ eco.agregar(clave, nombre, desc, precio)
 const td = new zeco.tienda()
 td.agregar(servidor.id, "Canal Propio", "un canal privado para ti", 20000)
 ```
-```js
-```
-#### Tienda: Eliminar
 
+#### Tienda: Eliminar
 ```js
 td.eliminar(clave, item)
 ```
@@ -161,10 +155,8 @@ td.eliminar(clave, item)
 const td = new zeco.tienda()
 td.eliminar(servidor.id, 1)
 ```
-```js
-```
-#### Tienda: Comprar
 
+#### Tienda: Comprar
 ```js
 eco.comprar(clave, id, item)
 ```
@@ -175,9 +167,6 @@ eco.comprar(clave, id, item)
 const eco = new zeco.economia()
 eco.comprar(servidor.id, miembro.id, 1)
 ```
-```js
-```
-
 
 ### Inventario
 ```js
