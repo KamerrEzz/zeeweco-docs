@@ -1,6 +1,6 @@
 ![Zeew Api](https://i.imgur.com/MP2bABn.png "Lo Mejor de Zeew y del C&P")
 
-# Zeew Eco!
+# ¡ZeewEco!
   - Economía Fácil y sencilla!
   - Tienda fácil de crear e intuitiva!
 
@@ -149,8 +149,6 @@ td.agregar(servidor.id, "Canal Propio", "un canal privado para ti", 20000)
 ```
 ```js
 ```
-<a name="TD-quitar" />
-
 #### Tienda: Eliminar
 
 ```js
@@ -202,14 +200,13 @@ inv.compras(clave, id, item, boleano)
 * boleano
     * true - No guardar el mismo Item
     * false - Guardar el mismo Item
-> proximas Actualizaciones se quiere hacer que los usuarios puedan vender los items de sus inventarios y tener una economia mas amplia.
+    
 ```js
 const inv = new zeco.inventario()
 inv.quitarcompras(servidor.id, usuario.id, 2 , false)
 ```
 
 #### Inventario: quitarcompras
-
 ```js
 inv.quitarcompras(clave, id, item)
 ```
@@ -230,7 +227,6 @@ inv.vercompras(clave, id)
 let inv = new ze.inventario()
 inv.vercompras(servidor.id,usuario.id)
 ```
-
 
 #### ¡Staff de Zeew!
  * @KamerrOficial
