@@ -28,6 +28,8 @@ No olvides que si tienes un error o propuesta para mejorar este NPM, solo tienes
 npm i zeew-eco
 ```
 
+**¡Antes de cualquier constructor tendras que poner una funcion asincrona!**
+
 ### Economia
 ```js
 const zeeweconomy = require('zeew-eco')
@@ -49,7 +51,7 @@ eco.ver(id, clave)
 * id - ID del usuario
 * clave - ID del servidor
 ```js
-const eco = new zeco.economia()
+const eco = new zeeweconomy.Economia()
 eco.ver(miembro.id, servidor.id)
 ```
 Retorno (Number)
@@ -66,7 +68,7 @@ eco.agregar(id, clave, cantidad)
 * cantidad - Dinero que quieras agregarle
 
 ```js
-const eco = new zeco.economia()
+const eco = new zeeweconomy.Economia()
 eco.agregar(miembro.id, servidor.id, 1500)
 ```
 
@@ -79,7 +81,7 @@ eco.quitar(id, clave, cantidad)
 * cantidad - Dinero que quieras agregarle
 
 ```js
-const eco = new zeco.economia()
+const eco = new zeeweconomy.Economia()
 eco.quitar(miembro.id, servidor.id, 1500)
 ```
 #### Economia: Reiniciar
@@ -90,7 +92,7 @@ eco.reiniciar(id, clave)
 * clave - ID del servidor
 * 
 ```js
-const eco = new zeco.economia()
+const eco = new zeeweconomy.Economia()
 eco.trabajar(miembro.id, servidor.id)
 ```
 #### Economia: Trabajar
@@ -102,12 +104,11 @@ eco.trabajar(id, clave, cantidad)
 * cantidad - Cantidad maxima aleatoria
 
 ```js
-const eco = new zeco.economia()
+const eco = new zeeweconomy.Economia()
 eco.trabajar(miembro.id, servidor.id, 1500)
 ```
 
 ### Tienda
-
 ```js
 const zeeweconomy = require('zeew-eco')
 const tienda = new zeeweconomy.Tienda()
